@@ -1,0 +1,124 @@
+{
+  "contractName": "SimpleSmartContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/joshuadavid/Documents/Repositories/Blockchain/eattheblocks-pro/dapp-30/day1-simple-smart-contract/frontend/end/contracts/SimpleSmartContract.sol\":\"SimpleSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/joshuadavid/Documents/Repositories/Blockchain/eattheblocks-pro/dapp-30/day1-simple-smart-contract/frontend/end/contracts/SimpleSmartContract.sol\":{\"keccak256\":\"0xf3b2d973846f1754962b2443eb40b625af72b46e68fa47c8c8d3d52838f449c8\",\"urls\":[\"bzz-raw://a88a4d45089c4ca81142c04b803a29b461465b1630cfff68aa11b63dd2f5201d\",\"dweb:/ipfs/QmcRRGtY32QFDhfWmd9yiwazysckHftbHRAFuL6CTtK5wR\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820113e679a4ad3c5038845401a3a832358dbf2ea312e0ab65a927c392f3ae75bdd64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820113e679a4ad3c5038845401a3a832358dbf2ea312e0ab65a927c392f3ae75bdd64736f6c63430005100032",
+  "sourceMap": "25:31:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:31:1;;;;;;;",
+  "deployedSourceMap": "25:31:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract SimpleSmartContract {}\n",
+  "sourcePath": "/Users/joshuadavid/Documents/Repositories/Blockchain/eattheblocks-pro/dapp-30/day1-simple-smart-contract/frontend/end/contracts/SimpleSmartContract.sol",
+  "ast": {
+    "absolutePath": "/Users/joshuadavid/Documents/Repositories/Blockchain/eattheblocks-pro/dapp-30/day1-simple-smart-contract/frontend/end/contracts/SimpleSmartContract.sol",
+    "exportedSymbols": {
+      "SimpleSmartContract": [
+        59
+      ]
+    },
+    "id": 60,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "SimpleSmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 60,
+        "src": "25:31:1"
+      }
+    ],
+    "src": "0:57:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/joshuadavid/Documents/Repositories/Blockchain/eattheblocks-pro/dapp-30/day1-simple-smart-contract/frontend/end/contracts/SimpleSmartContract.sol",
+      "exportedSymbols": {
+        "SimpleSmartContract": [
+          59
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 58,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            59
+          ],
+          "name": "SimpleSmartContract",
+          "nodes": [
+            null
+          ],
+          "scope": 60
+        },
+        "id": 59,
+        "name": "ContractDefinition",
+        "src": "25:31:1"
+      }
+    ],
+    "id": 60,
+    "name": "SourceUnit",
+    "src": "0:57:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x462aef90F10A534b9E296b159E23aCf62471768E",
+      "transactionHash": "0x90a9c3f3bffa507b5ffe53fc8b6c8c0a1314319f88cc57abe77e737d8a442d53"
+    }
+  },
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-10T20:07:16.573Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
